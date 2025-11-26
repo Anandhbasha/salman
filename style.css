@@ -1,4 +1,4 @@
-.box{
+/* .box{
     height: 300px;
     background-color: red;
     border: 1px solid green;
@@ -8,7 +8,22 @@
 .edu{
     height: 50px;
     background-color: aqua;
-    /* margin: 25px 300px; */
-    /* padding: ; */
+    margin: 25px 300px; 
+    padding: ; 
     width: 1400px;
-}
+} */
+ .boxes{
+    width: 1400px;
+    height: 600px;
+    background-color: red;
+    /* background-image: url(./Images/download.jpg); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    /* opacity: .8; */
+    background:linear-gradient(rgba(255, 255, 255, 0.657),rgba(188, 37, 37, 0.539),rgba(0, 0, 0, 0.067)), url(./Images/download.jpg);
+    border-radius: 20px 10px 5px 2px;
+ }
+ .text{
+    /* color: blueviolet; */
+ }
