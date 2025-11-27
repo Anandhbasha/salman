@@ -21,9 +21,27 @@
     background-size: contain;
     background-position: left;
     /* opacity: .8; */
-    background:linear-gradient(rgba(255, 255, 255, 0.657),rgba(188, 37, 37, 0.539),rgba(0, 0, 0, 0.067)), url(./Images/download.jpg);
+    /* background:linear-gradient(rgba(255, 255, 255, 0.657),rgba(188, 37, 37, 0.539),rgba(0, 0, 0, 0.067)), url(./Images/download.jpg); */
     border-radius: 20px 10px 5px 2px;
  }
  .text{
     /* color: blueviolet; */
+    /* float: right; */
+ }
+ /* text properties */
+ .text{
+    text-decoration: none;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 2px 2px pink;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+ }
+ a{
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 900;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    text-align: center;
  }
